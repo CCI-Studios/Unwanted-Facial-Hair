@@ -99,7 +99,12 @@
 }
 
 .moduletable_vmenu.footer {
+	float: left;
+	width: 200px;
+	padding: 0 20px 0 0;
+	font-size: 13px;
 	font-weight: lighter;
+	line-height: 18px;
 	
 	ul {
 		
@@ -108,7 +113,7 @@
 			a {
 				color: #fff;
 				&:hover {
-					color: $red;
+					color: $redLink;
 					text-decoration: none;
 				}
 			}
