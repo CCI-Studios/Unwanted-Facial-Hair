@@ -26,11 +26,9 @@
 
 	<positions>
 		<position>debug</position>
-		<position>header</position>
 		<position>top</position>
+		<position>header</position>
 		<position>sidebar</position>
-		<position>bottom</position>
 		<position>footer</position>
-		<position>copyright</position>
 	</positions>
 </extension>
