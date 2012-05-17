@@ -22,6 +22,11 @@
 			> span {
 				display: block;
 				color: $grey;
+				
+				&:hover {
+					color: $red;
+					text-decoration: none;
+				}
 			}
 		}
 
