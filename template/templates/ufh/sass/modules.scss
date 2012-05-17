@@ -68,4 +68,19 @@
 		color: $redLink;
 	}
 }
+
+.moduletable.copyright {
+	font-size: 12px;
+	width: 279px;
+	padding: 0 0 0 19px;
+	line-height: 18px;
+	
+	a {
+		color: #fff;
+		
+		&:hover {
+			color: $red;
+			text-decoration: none;
+		}
+	}
 }
