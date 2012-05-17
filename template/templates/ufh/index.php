@@ -76,17 +76,19 @@ $typekit = null;
 			<div id="main">
 				<div id="content">
 					<jdoc:include type="component" />
+					<div class="clear"></div>
 				</div>
 				<div id="sidebar">
 					<jdoc:include type="modules" name="sidebar" style="xhtml" />
+					<div class="clear"></div>
 				</div>
+				<div class="clear"></div>
 			</div>
 		</div>
-	
-		<div class="clear"></div>
-
+			
 		<div id="footer"><div class="container">
 			<jdoc:include type="modules" name="footer" style="xhtml" />
+			<div class="clear"></div>
 		</div></div>
 		
 	</div>
