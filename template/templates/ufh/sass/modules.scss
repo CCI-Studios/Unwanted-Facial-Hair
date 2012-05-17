@@ -47,4 +47,15 @@
 		padding-top: 16px;
 	}
 }
+
+
+/* footer mods */
+
+#footer .moduletable {
+	float: left;
+	background: url('../images/footer_divider.png') top left no-repeat;
+	&:first-child {
+		background: none;
+	}
+}
 }
