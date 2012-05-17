@@ -1,4 +1,18 @@
 /* @group modules */
+.moduletable.fontResizer {
+  float: right;
+  line-height: 41px;
+  height: 41px;
+  font-size: 13px; }
+  .moduletable.fontResizer a {
+    padding-left: 5px;
+    color: #fff; }
+    .moduletable.fontResizer a:hover {
+      color: #d30c26;
+      text-decoration: none; }
+    .moduletable.fontResizer a:first-child {
+      padding-left: 0; }
+
 .moduletable.logo {
   float: left;
   margin: -13px 0 0 -9px; }
@@ -10,4 +24,35 @@
 
 .moduletable.masthead {
   background: url("../images/bg_masthead.png") bottom center no-repeat;
-  padding: 20px 0 0 0; }
+  padding: 20px 0 1px 0; }
+
+/* sidebar mods */
+#sidebar .moduletable {
+  padding: 9px 0 0 0; }
+  #sidebar .moduletable:first-child {
+    padding-top: 16px; }
+
+/* footer mods */
+#footer .moduletable {
+  float: left;
+  background: url("../images/footer_divider.png") top left no-repeat; }
+  #footer .moduletable:first-child {
+    background: none; }
+
+.moduletable.footerLinks {
+  font-size: 14px;
+  width: 400px;
+  padding: 0 0 0 20px; }
+  .moduletable.footerLinks a {
+    color: #d30c26; }
+
+.moduletable.copyright {
+  font-size: 12px;
+  width: 279px;
+  padding: 0 0 0 19px;
+  line-height: 18px; }
+  .moduletable.copyright a {
+    color: #fff; }
+    .moduletable.copyright a:hover {
+      color: #a70b20;
+      text-decoration: none; }
