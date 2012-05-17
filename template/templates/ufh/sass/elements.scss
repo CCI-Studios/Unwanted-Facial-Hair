@@ -29,6 +29,10 @@ h3 {
 	margin: 0 0 15px 0;
 }
 
+p:first-child {
+	margin-top: 0;
+}
+
 a, a:active, a:visited {
 	color: #607890;
 	text-decoration: none;
