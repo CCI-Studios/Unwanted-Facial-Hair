@@ -4,7 +4,9 @@
 /* elements */
 body, select, input, textarea {
 	color: #444; /* off black */
-	font-family: Helvetica, Arial, sans-serif;
+	font-family: "Gill Sans", Helvetica, Arial, sans-serif;
+	font-weight: normal;
+	font-size: 16px;
 }
 
 /* Headers (h1, h2, etc) have no default font-size or margin; define those yourself */
