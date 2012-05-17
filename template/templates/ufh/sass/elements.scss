@@ -34,11 +34,11 @@ p:first-child {
 }
 
 a, a:active, a:visited {
-	color: #607890;
+	color: $red;
 	text-decoration: none;
 }
 a:hover {
-	color: #036;
+	color: $red;
 	text-decoration: underline;
 }
 
