@@ -4,6 +4,25 @@
 /* @group modules */
 .moduletable {}
 
+.moduletable.fontResizer {
+	float: right;
+	line-height: 41px;
+	height: 41px;
+	font-size: 13px;
+	
+	a {	
+		padding-left: 5px;
+		color: #fff;
+		&:hover {
+			color: $redLink;
+			text-decoration: none;
+		}
+		&:first-child {
+			padding-left: 0;
+		}
+	}
+}
+
 .moduletable.logo {
 	float: left;
 	margin: -13px 0 0 -9px;
