@@ -2,11 +2,20 @@
 body, select, input, textarea {
   color: #444;
   /* off black */
-  font-family: Helvetica, Arial, sans-serif; }
+  font-family: "Gill Sans", Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  font-size: 16px; }
 
 /* Headers (h1, h2, etc) have no default font-size or margin; define those yourself */
 h1, h2, h3, h4, h5, h6 {
-  font-weight: bold; }
+  font-weight: bold;
+  color: #a70b20; }
+
+h1 {
+  font-family: "Gill Sans MT", "Gill Sans", Helvetica, Arial, sans-serif;
+  font-size: 24px; }
+  .home h1 {
+    margin: 40px 0 25px; }
 
 a, a:active, a:visited {
   color: #607890;

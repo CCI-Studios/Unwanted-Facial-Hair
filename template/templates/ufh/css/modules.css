@@ -1,35 +1,13 @@
 /* @group modules */
-/* @group hmenu */
-.moduletable_hmenu > ul {
-  margin: 0;
-  padding: 0; }
+.moduletable.logo {
+  float: left;
+  margin: -13px 0 0 -9px; }
 
-.moduletable_hmenu > ul > li {
-  display: inline-block;
-  *display: inline;
-  *zoom: 1;
-  position: relative;
-  padding: 0 5px; }
+.moduletable.logoText {
+  float: left;
+  margin: 67px 0 0 0;
+  padding: 0 0 0 25px; }
 
-.moduletable_vmenu > ul > li > a,
-.moduletable_vmenu > ul > li > span {
-  display: block; }
-
-.moduletable_vmenu ul ul {
-  position: absolute;
-  top: 100%;
-  left: 0;
-  width: 100%; }
-
-/* /hmenu */
-/* @group vmenu */
-.moduletable_vmenu > ul {
-  margin: 0;
-  padding: 0;
-  list-style: none; }
-
-.moduletable_vmenu ul ul {
-  margin: 0.5em 0 1em 1em;
-  list-style: none; }
-
-/* /vmenu */
+.moduletable.masthead {
+  background: url("../images/bg_masthead.png") bottom center no-repeat;
+  padding: 20px 0 0 0; }

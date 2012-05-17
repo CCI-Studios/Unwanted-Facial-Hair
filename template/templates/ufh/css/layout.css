@@ -1,1 +1,20 @@
 /* layout */
+.container {
+  width: 940px;
+  padding: 0 10px;
+  margin: 0 auto; }
+  #header .container {
+    position: relative; }
+
+#top {
+  background: url("../images/bg_topRepeat.png") top center repeat-x; }
+
+#content {
+  float: left;
+  width: 620px;
+  padding: 0 20px 0 0; }
+
+#footer {
+  background: #1a1a1a url("../images/bg_footerRepeat.png") top center repeat-x;
+  padding: 25px 0;
+  font-size: 14px; }
