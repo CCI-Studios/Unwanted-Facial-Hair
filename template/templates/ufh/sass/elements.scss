@@ -15,6 +15,15 @@ h1, h2, h3, h4, h5, h6 {
 	color: $red;
 }
 
+h1 {
+	font-family: "Gill Sans MT", "Gill Sans", Helvetica, Arial, sans-serif;
+	font-size: 24px;
+	
+	.home & {
+		margin: 40px 0 25px;
+	}
+}
+
 a, a:active, a:visited {
 	color: #607890;
 	text-decoration: none;
@@ -23,3 +32,4 @@ a:hover {
 	color: #036;
 	text-decoration: underline;
 }
+
