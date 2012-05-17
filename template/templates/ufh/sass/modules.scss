@@ -58,4 +58,14 @@
 		background: none;
 	}
 }
+
+.moduletable.footerLinks {
+	font-size: 14px;
+	width: 400px;
+	padding: 0 0 0 20px;
+	
+	a {
+		color: $redLink;
+	}
+}
 }
