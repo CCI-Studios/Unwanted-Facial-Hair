@@ -89,7 +89,7 @@ $typekit = null;
 			
 		<div id="footer"><div class="container">
 			<jdoc:include type="modules" name="footer" style="xhtml" />
-			<div class="copyright">© Unwanted Facial Hair 2012. All Rights Reserved. <br />Site by <a href="http://ccistudios.com/">CCI Studios</a></div>
+			<div class="copyright">&copy; Unwanted Facial Hair <?php echo date('Y') ?>. All Rights Reserved. <br />Site by <a href="http://ccistudios.com/">CCI Studios</a></div>
 			<div class="clear"></div>
 		</div></div>
 		
