@@ -35,8 +35,12 @@
 }
 
 .moduletable.masthead {
-	background: url('../images/bg_masthead.png') bottom center no-repeat;
-	padding: 20px 0 1px 0;
+	padding: 20px 0 0 0;
+	
+	img {
+		display: block;
+		margin: 0 auto;
+	}
 }
 
 /* sidebar mods */
