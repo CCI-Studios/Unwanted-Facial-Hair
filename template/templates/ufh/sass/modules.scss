@@ -67,8 +67,7 @@
 
 
 /* footer mods */
-
-#footer .moduletable {
+#footer > div > div {
 	float: left;
 	background: url('../images/footer_divider.png') top left no-repeat;
 	&:first-child {
@@ -86,7 +85,7 @@
 	}
 }
 
-.moduletable.copyright {
+.copyright {
 	font-size: 12px;
 	width: 279px;
 	padding: 0 0 0 19px;
