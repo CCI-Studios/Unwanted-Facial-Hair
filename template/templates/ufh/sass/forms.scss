@@ -26,3 +26,35 @@ input:invalid, textarea:invalid {
 /* Make buttons play nice in IE:
    www.viget.com/inspire/styling-the-button-element-in-internet-explorer/ */
 button {  width: auto; overflow: visible; }
+
+div.ccms_form_element {
+	padding-left: 0;
+	
+	label,
+	label + * {
+		float: left;
+		clear: left;
+	}
+	
+	input[type="submit"] {
+		background: $red;
+		color: #fff;
+		&:hover {
+			background: $redOnBlack;
+		}
+	}
+	
+	input.chrono_captcha_input {
+		width: 50px;
+		
+		+ * {
+			float: left;
+			clear: right;
+			padding-left: 10px; 
+		}
+	}
+}
+
+div.chronoform {
+	display: none;
+}
