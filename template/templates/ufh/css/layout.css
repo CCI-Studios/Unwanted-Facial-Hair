@@ -19,7 +19,8 @@
 
 #sidebar {
   float: left;
-  width: 300px; }
+  width: 300px;
+  margin: 16px 0 0 0; }
 
 #footer {
   background: #1a1a1a url("../images/bg_footerRepeat.png") top center repeat-x;

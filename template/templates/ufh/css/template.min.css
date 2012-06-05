@@ -366,7 +366,7 @@ table {
 
 /* elements */
 body, select, input, textarea {
-  color: #444;
+  color: #4c4c4c;
   /* off black */
   font-family: "Gill Sans", Helvetica, Arial, sans-serif;
   font-weight: normal;
@@ -440,6 +440,27 @@ button {
   width: auto;
   overflow: visible; }
 
+div.ccms_form_element {
+  padding-left: 0; }
+  div.ccms_form_element label,
+  div.ccms_form_element label + * {
+    float: left;
+    clear: left; }
+  div.ccms_form_element input[type="submit"] {
+    background: #a70b20;
+    color: #fff; }
+    div.ccms_form_element input[type="submit"]:hover {
+      background: #d30c26; }
+  div.ccms_form_element input.chrono_captcha_input {
+    width: 50px; }
+    div.ccms_form_element input.chrono_captcha_input + * {
+      float: left;
+      clear: right;
+      padding-left: 10px; }
+
+div.chronoform {
+  display: none; }
+
 /* layout */
 .container {
   width: 940px;
@@ -461,7 +482,8 @@ button {
 
 #sidebar {
   float: left;
-  width: 300px; }
+  width: 300px;
+  margin: 16px 0 0 0; }
 
 #footer {
   background: #1a1a1a url("../images/bg_footerRepeat.png") top center repeat-x;
@@ -502,12 +524,15 @@ button {
 
 /* sidebar mods */
 #sidebar .module {
+  background: #fff;
   border: 1px solid #e5e5e5;
   padding: 14px 12px 10px;
   margin: 10px 0 0 0;
   line-height: 1em;
   position: relative;
   overflow: hidden; }
+  #sidebar .module:first-child {
+    margin: 0; }
   #sidebar .module .imaged {
     margin: -14px -12px -10px;
     padding: 14px 12px 10px;
@@ -515,6 +540,11 @@ button {
   #sidebar .module h3 + .imaged {
     margin-top: -45px;
     padding-top: 45px; }
+  #sidebar .module a {
+    color: #4c4c4c; }
+    #sidebar .module a:hover {
+      color: #a70b20;
+      text-decoration: none; }
 
 /* footer mods */
 #footer > div > div {
@@ -555,7 +585,7 @@ button {
     .moduletable_hmenu > ul > li > a,
     .moduletable_hmenu > ul > li > span {
       display: block;
-      color: #4d4d4d; }
+      color: #4c4c4c; }
       .moduletable_hmenu > ul > li > a:hover,
       .moduletable_hmenu > ul > li > span:hover {
         color: #a70b20;
@@ -634,11 +664,11 @@ button {
    Also: hot pink! */
 /* TODO Update selection BG color */
 ::-moz-selection {
-  background: #FF5E99;
+  background: #a70b20;
   color: #fff;
   text-shadow: none; }
 
 ::selection {
-  background: #FF5E99;
+  background: #a70b20;
   color: #fff;
   text-shadow: none; }

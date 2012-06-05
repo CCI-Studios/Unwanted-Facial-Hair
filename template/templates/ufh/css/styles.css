@@ -16,11 +16,11 @@
    Also: hot pink! */
 /* TODO Update selection BG color */
 ::-moz-selection {
-  background: #FF5E99;
+  background: #a70b20;
   color: #fff;
   text-shadow: none; }
 
 ::selection {
-  background: #FF5E99;
+  background: #a70b20;
   color: #fff;
   text-shadow: none; }

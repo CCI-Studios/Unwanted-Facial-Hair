@@ -30,12 +30,15 @@
 
 /* sidebar mods */
 #sidebar .module {
+  background: #fff;
   border: 1px solid #e5e5e5;
   padding: 14px 12px 10px;
   margin: 10px 0 0 0;
   line-height: 1em;
   position: relative;
   overflow: hidden; }
+  #sidebar .module:first-child {
+    margin: 0; }
   #sidebar .module .imaged {
     margin: -14px -12px -10px;
     padding: 14px 12px 10px;
@@ -43,6 +46,11 @@
   #sidebar .module h3 + .imaged {
     margin-top: -45px;
     padding-top: 45px; }
+  #sidebar .module a {
+    color: #4c4c4c; }
+    #sidebar .module a:hover {
+      color: #a70b20;
+      text-decoration: none; }
 
 /* footer mods */
 #footer > div > div {
