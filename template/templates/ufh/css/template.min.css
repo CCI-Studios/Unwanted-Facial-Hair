@@ -372,6 +372,9 @@ body, select, input, textarea {
   font-weight: normal;
   font-size: 16px; }
 
+body {
+  background: url("../images/bg_home.jpg") top center no-repeat; }
+
 /* Headers (h1, h2, etc) have no default font-size or margin; define those yourself */
 h1, h2, h3, h4, h5, h6 {
   font-weight: bold;
@@ -458,14 +461,14 @@ button {
 
 #sidebar {
   float: left;
-  width: 300px;
-  font-family: "Gill Sans MT", "Gill Sans", Helvetica, Arial, sans-serif; }
+  width: 300px; }
 
 #footer {
   background: #1a1a1a url("../images/bg_footerRepeat.png") top center repeat-x;
   padding: 20px 0;
   font-weight: lighter;
-  color: #fff; }
+  color: #fff;
+  overflow: auto; }
 
 /* @group modules */
 .moduletable.fontResizer {
@@ -492,20 +495,32 @@ button {
   padding: 0 0 0 25px; }
 
 .moduletable.masthead {
-  background: url("../images/bg_masthead.png") bottom center no-repeat;
-  padding: 20px 0 1px 0; }
+  padding: 20px 0 0 0; }
+  .moduletable.masthead img {
+    display: block;
+    margin: 0 auto; }
 
 /* sidebar mods */
-#sidebar .moduletable {
-  padding: 9px 0 0 0; }
-  #sidebar .moduletable:first-child {
-    padding-top: 16px; }
+#sidebar .module {
+  border: 1px solid #e5e5e5;
+  padding: 14px 12px 10px;
+  margin: 10px 0 0 0;
+  line-height: 1em;
+  position: relative;
+  overflow: hidden; }
+  #sidebar .module .imaged {
+    margin: -14px -12px -10px;
+    padding: 14px 12px 10px;
+    background: bottom right no-repeat; }
+  #sidebar .module h3 + .imaged {
+    margin-top: -45px;
+    padding-top: 45px; }
 
 /* footer mods */
-#footer .moduletable {
+#footer > div > div {
   float: left;
   background: url("../images/footer_divider.png") top left no-repeat; }
-  #footer .moduletable:first-child {
+  #footer > div > div:first-child {
     background: none; }
 
 .moduletable.footerLinks {
@@ -515,14 +530,14 @@ button {
   .moduletable.footerLinks a {
     color: #d30c26; }
 
-.moduletable.copyright {
+.copyright {
   font-size: 12px;
   width: 279px;
   padding: 0 0 0 19px;
   line-height: 18px; }
-  .moduletable.copyright a {
+  .copyright a {
     color: #fff; }
-    .moduletable.copyright a:hover {
+    .copyright a:hover {
       color: #a70b20;
       text-decoration: none; }
 
@@ -589,7 +604,6 @@ button {
   list-style: none; }
 
 .moduletable_vmenu.footer {
-  float: left;
   width: 200px;
   padding: 0 20px 0 0;
   font-size: 13px;

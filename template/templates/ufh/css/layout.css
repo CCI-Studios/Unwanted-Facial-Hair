@@ -19,11 +19,11 @@
 
 #sidebar {
   float: left;
-  width: 300px;
-  font-family: "Gill Sans MT", "Gill Sans", Helvetica, Arial, sans-serif; }
+  width: 300px; }
 
 #footer {
   background: #1a1a1a url("../images/bg_footerRepeat.png") top center repeat-x;
   padding: 20px 0;
   font-weight: lighter;
-  color: #fff; }
+  color: #fff;
+  overflow: auto; }
