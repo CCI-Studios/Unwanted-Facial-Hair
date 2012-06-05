@@ -1,1 +1,1 @@
-window.addEvent("domready",function(){new CCI.Rollover("img.rollover")});window.addEvent("load",function(){new CCI.Columns($("footer"),".moduletable , .moduletable_vmenu")});
+window.addEvent("domready",function(){new CCI.Rollover("img.rollover")});window.addEvent("load",function(){new CCI.Columns($("footer"),".moduletable , .moduletable_vmenu, div.copyright")});
