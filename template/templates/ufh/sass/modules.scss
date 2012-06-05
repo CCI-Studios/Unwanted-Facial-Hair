@@ -46,12 +46,16 @@
 /* sidebar mods */
 
 #sidebar .module {
+	background: #fff;
 	border: 1px solid $border;
 	padding: 14px 12px 10px;
 	margin: 10px 0 0 0;
 	line-height: 1em;
 	position: relative;
 	overflow: hidden;
+	&:first-child {
+		margin: 0;
+	}
 	
 	.imaged { // blow out to make space for larger background image
 		margin: -14px -12px -10px;
@@ -62,6 +66,14 @@
 	h3 + .imaged { // blow out more for title
 		margin-top: -45px;
 		padding-top: 45px;
+	}
+	
+	a {
+		color: $grey;
+		&:hover {
+			color: $red;
+			text-decoration: none;
+		}
 	}
 }
 
