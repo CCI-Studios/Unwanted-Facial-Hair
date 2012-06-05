@@ -14,7 +14,7 @@
 		padding-left: 5px;
 		color: #fff;
 		&:hover {
-			color: $redLink;
+			color: $redOnBlack;
 			text-decoration: none;
 		}
 		&:first-child {
@@ -81,7 +81,7 @@
 	padding: 0 0 0 20px;
 	
 	a {
-		color: $redLink;
+		color: $redOnBlack;
 	}
 }
 
