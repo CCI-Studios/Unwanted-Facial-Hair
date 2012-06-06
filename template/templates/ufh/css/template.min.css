@@ -368,7 +368,7 @@ table {
 body, select, input, textarea {
   color: #4c4c4c;
   /* off black */
-  font-family: "Gill Sans", Helvetica, Arial, sans-serif;
+  font-family: "Gill Sans MT", Helvetica, Arial, sans-serif;
   font-weight: normal;
   font-size: 16px; }
 
@@ -381,7 +381,6 @@ h1, h2, h3, h4, h5, h6 {
   color: #a70b20; }
 
 h1 {
-  font-family: "Gill Sans MT", "Gill Sans", Helvetica, Arial, sans-serif;
   font-size: 24px; }
   .home h1 {
     margin: inherit 0 25px; }
