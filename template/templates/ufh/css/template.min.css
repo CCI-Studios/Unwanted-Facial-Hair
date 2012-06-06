@@ -540,6 +540,8 @@ div.chronoform {
     margin: -14px -12px -10px;
     padding: 14px 12px 10px;
     background: bottom right no-repeat; }
+  #sidebar .module h3 {
+    position: relative; }
   #sidebar .module h3 + .imaged {
     margin-top: -45px;
     padding-top: 45px; }
