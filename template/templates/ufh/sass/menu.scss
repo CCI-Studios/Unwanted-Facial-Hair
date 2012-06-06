@@ -69,6 +69,7 @@
 	font-size: 13px;
 	float: right;
 	padding: 13px 10px 0 20px;
+	.ie8 & {padding-top: 11px;}
 	
 	ul {
 		
