@@ -26,7 +26,7 @@
 .moduletable_hmenu.primary {
   float: left;
   font-size: 16px;
-  clear: right;
+  clear: both;
   width: 100%; }
   .moduletable_hmenu.primary ul {
     border-bottom: 1px solid #e5e5e5;
@@ -44,14 +44,16 @@
 .moduletable_hmenu.mini {
   font-size: 13px;
   float: right;
-  padding: 0px 10px 0 20px;
-  line-height: 41px; }
+  padding: 13px 10px 0 20px; }
   .moduletable_hmenu.mini ul li {
-    padding: 0 10px;
-    border-right: 1px solid #fff;
-    line-height: 15px; }
-  .moduletable_hmenu.mini ul a {
-    color: #fff; }
+    padding: 0; }
+    .moduletable_hmenu.mini ul li a {
+      padding: 0 10px;
+      border-right: 1px solid #fff;
+      line-height: 15px;
+      color: #fff; }
+      .moduletable_hmenu.mini ul li a:hover {
+        color: #d30c26; }
 
 /* /hmenu */
 /* @group vmenu */
