@@ -441,14 +441,18 @@ button {
   overflow: visible; }
 
 div.ccms_form_element {
-  padding-left: 0; }
+  padding: 0 0 10px 0px;
+  margin: 0; }
   div.ccms_form_element label,
   div.ccms_form_element label + * {
     float: left;
     clear: left; }
   div.ccms_form_element input[type="submit"] {
     background: #a70b20;
-    color: #fff; }
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    color: #fff;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.75); }
     div.ccms_form_element input[type="submit"]:hover {
       background: #d30c26; }
   div.ccms_form_element input.chrono_captcha_input {

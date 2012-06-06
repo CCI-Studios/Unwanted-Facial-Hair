@@ -28,7 +28,8 @@ input:invalid, textarea:invalid {
 button {  width: auto; overflow: visible; }
 
 div.ccms_form_element {
-	padding-left: 0;
+	padding: 0 0 10px 0px;
+	margin: 0;
 	
 	label,
 	label + * {
@@ -38,7 +39,10 @@ div.ccms_form_element {
 	
 	input[type="submit"] {
 		background: $red;
+		border: 1px solid #ccc;
+		border-radius: 4px;
 		color: #fff;
+		text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.75);
 		&:hover {
 			background: $redOnBlack;
 		}
