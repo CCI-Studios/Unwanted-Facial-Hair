@@ -373,7 +373,6 @@ body, select, input, textarea {
   font-size: 16px; }
 
 body {
-  background: url("../images/bg_home.jpg") top center no-repeat;
   background-color: #1a1a1a; }
 
 /* Headers (h1, h2, etc) have no default font-size or margin; define those yourself */
@@ -683,5 +682,5 @@ div.chronoform {
   color: #fff;
   text-shadow: none; }
 
-.bg-white {
-  background-color: white; }
+.bg-image {
+  background: white url("../images/bg_home.jpg") top center no-repeat; }
