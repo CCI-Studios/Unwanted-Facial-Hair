@@ -64,7 +64,7 @@ $typekit = null;
 			<div class="clear"></div>
 		</div></div>
 		
-			<div class="bg-white"><div class="container">
+			<div class="bg-image"><div class="container">
 			<div id="header">
 				<jdoc:include type="modules" name ="header" style="xhtml" />
 				<div class="clear"></div>
