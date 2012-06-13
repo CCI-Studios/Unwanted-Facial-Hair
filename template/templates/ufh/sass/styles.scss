@@ -14,3 +14,7 @@
 /* TODO Update selection BG color */
 ::-moz-selection{ background: $red; color:#fff; text-shadow: none; }
 ::selection { background: $red; color:#fff; text-shadow: none; }
+
+.bg-white {
+	background-color: white;
+}

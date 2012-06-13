@@ -64,12 +64,12 @@ $typekit = null;
 			<div class="clear"></div>
 		</div></div>
 		
-		<div id="header"><div class="container">
-			<jdoc:include type="modules" name ="header" style="xhtml" />
-			<div class="clear"></div>
-		</div></div>
+			<div class="bg-white"><div class="container">
+			<div id="header">
+				<jdoc:include type="modules" name ="header" style="xhtml" />
+				<div class="clear"></div>
+			</div>
 		
-		<div class="container">
 			<div id="masthead">
 				<jdoc:include type="modules" name="masthead" style="xhtml" />
 			</div>
@@ -85,7 +85,7 @@ $typekit = null;
 				</div>
 				<div class="clear"></div>
 			</div>
-		</div>
+		</div></div>
 			
 		<div id="footer"><div class="container">
 			<jdoc:include type="modules" name="footer" style="xhtml" />
