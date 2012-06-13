@@ -25,5 +25,5 @@
   color: #fff;
   text-shadow: none; }
 
-.bg-white {
-  background-color: white; }
+.bg-image {
+  background: white url("../images/bg_home.jpg") top center no-repeat; }
