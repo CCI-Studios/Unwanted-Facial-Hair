@@ -18,8 +18,12 @@
 
 .moduletable.logoText {
   float: left;
-  margin: 67px 0 0 0;
-  padding: 0 0 0 25px; }
+  margin: 66px 0 0 0;
+  padding: 0 0 0 25px;
+  font-size: 35px;
+  line-height: 32px;
+  font-weight: bold;
+  color: #a70b20; }
 
 .moduletable.masthead {
   padding: 20px 0 0 0; }
