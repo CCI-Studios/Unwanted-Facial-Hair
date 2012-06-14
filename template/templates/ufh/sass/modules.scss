@@ -6,9 +6,8 @@
 
 .moduletable.fontResizer {
 	float: right;
-	line-height: 41px;
-	height: 41px;
 	font-size: 13px;
+	padding-right: 10px;
 	
 	a {	
 		padding-left: 5px;
@@ -30,8 +29,13 @@
 
 .moduletable.logoText {
 	float: left;
-	margin: 67px 0 0 0;
+	margin: 66px 0 0 0;
 	padding: 0 0 0 25px;
+	
+	font-size: 35px;
+	line-height: 32px;
+	font-weight: bold;
+	color: $red;
 }
 
 .moduletable.masthead {
@@ -91,7 +95,7 @@
 	}
 }
 
-.moduletable.footerLinks {
+.moduletable.resources {
 	font-size: 14px;
 	width: 400px;
 	padding: 0 0 0 20px;
@@ -101,7 +105,7 @@
 	}
 }
 
-.copyright {
+.moduletable.copyright {
 	font-size: 12px;
 	width: 279px;
 	padding: 0 0 0 19px;

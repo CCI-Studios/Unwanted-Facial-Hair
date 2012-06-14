@@ -17,17 +17,6 @@
 			position: relative;
 
 			padding: 0 5px;
-
-			> a,
-			> span {
-				display: block;
-				color: $grey;
-				
-				&:hover {
-					color: $red;
-					text-decoration: none;
-				}
-			}
 		}
 
 		ul {
@@ -35,6 +24,17 @@
 			top: 100%;
 			left: 0;
 			width: 100%;
+		}
+	}
+	
+	a,
+	span {
+		display: block;
+		color: $grey;
+		
+		&:hover {
+			color: $red;
+			text-decoration: none;
 		}
 	}
 } 
@@ -53,6 +53,9 @@
 		
 		li {
 			padding: 0 20px;
+			.home-french & {
+				padding: 0 15px;
+			}
 			&:first-child {
 				padding-left: 0;
 			}
@@ -68,24 +71,24 @@
 .moduletable_hmenu.mini {
 	font-size: 13px;
 	float: right;
-	padding: 13px 10px 0 20px;
+	padding-right: 10px;
 	.ie8 & {padding-top: 11px;}
 	
 	ul {
 		
 		li {
 			padding: 0;
-			
-			a {
-				padding: 0 10px;
-				border-right: 1px solid #fff;
-				line-height: 15px;
-				color: #fff;
-				
-				&:hover {
-					color: $redOnBlack;
-				}
-			}
+		}
+	}
+	
+	a {
+		padding: 0 10px;
+		border-right: 1px solid #fff;
+		line-height: 15px;
+		color: #fff;
+		
+		&:hover {
+			color: $redOnBlack;
 		}
 	}
 }
@@ -110,17 +113,11 @@
 	font-weight: lighter;
 	line-height: 18px;
 	
-	ul {
-		
-		li {
-			
-			a {
-				color: #fff;
-				&:hover {
-					color: $redOnBlack;
-					text-decoration: none;
-				}
-			}
+	a {
+		color: #fff;
+		&:hover {
+			color: $redOnBlack;
+			text-decoration: none;
 		}
 	}
 }

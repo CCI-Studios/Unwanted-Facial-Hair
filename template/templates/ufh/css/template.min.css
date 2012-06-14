@@ -473,7 +473,9 @@ div.chronoform {
     position: relative; }
 
 #top {
-  background: url("../images/bg_topRepeat.png") top center repeat-x; }
+  background: url("../images/bg_topRepeat.png") top center repeat-x;
+  height: 41px;
+  line-height: 41px; }
 
 #main {
   padding: 25px 0; }
@@ -498,9 +500,8 @@ div.chronoform {
 /* @group modules */
 .moduletable.fontResizer {
   float: right;
-  line-height: 41px;
-  height: 41px;
-  font-size: 13px; }
+  font-size: 13px;
+  padding-right: 10px; }
   .moduletable.fontResizer a {
     padding-left: 5px;
     color: #fff; }
@@ -516,8 +517,12 @@ div.chronoform {
 
 .moduletable.logoText {
   float: left;
-  margin: 67px 0 0 0;
-  padding: 0 0 0 25px; }
+  margin: 66px 0 0 0;
+  padding: 0 0 0 25px;
+  font-size: 35px;
+  line-height: 32px;
+  font-weight: bold;
+  color: #a70b20; }
 
 .moduletable.masthead {
   padding: 20px 0 0 0; }
@@ -558,21 +563,21 @@ div.chronoform {
   #footer > div > div:first-child {
     background: none; }
 
-.moduletable.footerLinks {
+.moduletable.resources {
   font-size: 14px;
   width: 400px;
   padding: 0 0 0 20px; }
-  .moduletable.footerLinks a {
+  .moduletable.resources a {
     color: #d30c26; }
 
-.copyright {
+.moduletable.copyright {
   font-size: 12px;
   width: 279px;
   padding: 0 0 0 19px;
   line-height: 18px; }
-  .copyright a {
+  .moduletable.copyright a {
     color: #fff; }
-    .copyright a:hover {
+    .moduletable.copyright a:hover {
       color: #a70b20;
       text-decoration: none; }
 
@@ -587,19 +592,19 @@ div.chronoform {
     *zoom: 1;
     position: relative;
     padding: 0 5px; }
-    .moduletable_hmenu > ul > li > a,
-    .moduletable_hmenu > ul > li > span {
-      display: block;
-      color: #4c4c4c; }
-      .moduletable_hmenu > ul > li > a:hover,
-      .moduletable_hmenu > ul > li > span:hover {
-        color: #a70b20;
-        text-decoration: none; }
   .moduletable_hmenu > ul ul {
     position: absolute;
     top: 100%;
     left: 0;
     width: 100%; }
+.moduletable_hmenu a,
+.moduletable_hmenu span {
+  display: block;
+  color: #4c4c4c; }
+  .moduletable_hmenu a:hover,
+  .moduletable_hmenu span:hover {
+    color: #a70b20;
+    text-decoration: none; }
 
 .moduletable_hmenu.primary {
   float: left;
@@ -612,6 +617,8 @@ div.chronoform {
     position: relative; }
     .moduletable_hmenu.primary ul li {
       padding: 0 20px; }
+      .home-french .moduletable_hmenu.primary ul li {
+        padding: 0 15px; }
       .moduletable_hmenu.primary ul li:first-child {
         padding-left: 0; }
       .moduletable_hmenu.primary ul li.last {
@@ -622,18 +629,18 @@ div.chronoform {
 .moduletable_hmenu.mini {
   font-size: 13px;
   float: right;
-  padding: 13px 10px 0 20px; }
+  padding-right: 10px; }
   .ie8 .moduletable_hmenu.mini {
     padding-top: 11px; }
   .moduletable_hmenu.mini ul li {
     padding: 0; }
-    .moduletable_hmenu.mini ul li a {
-      padding: 0 10px;
-      border-right: 1px solid #fff;
-      line-height: 15px;
-      color: #fff; }
-      .moduletable_hmenu.mini ul li a:hover {
-        color: #d30c26; }
+  .moduletable_hmenu.mini a {
+    padding: 0 10px;
+    border-right: 1px solid #fff;
+    line-height: 15px;
+    color: #fff; }
+    .moduletable_hmenu.mini a:hover {
+      color: #d30c26; }
 
 /* /hmenu */
 /* @group vmenu */
@@ -648,9 +655,9 @@ div.chronoform {
   font-size: 13px;
   font-weight: lighter;
   line-height: 18px; }
-  .moduletable_vmenu.footer ul li a {
+  .moduletable_vmenu.footer a {
     color: #fff; }
-    .moduletable_vmenu.footer ul li a:hover {
+    .moduletable_vmenu.footer a:hover {
       color: #d30c26;
       text-decoration: none; }
 
