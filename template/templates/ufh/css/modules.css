@@ -71,13 +71,13 @@
   .moduletable.resources a {
     color: #d30c26; }
 
-.copyright {
+.moduletable.copyright {
   font-size: 12px;
   width: 279px;
   padding: 0 0 0 19px;
   line-height: 18px; }
-  .copyright a {
+  .moduletable.copyright a {
     color: #fff; }
-    .copyright a:hover {
+    .moduletable.copyright a:hover {
       color: #a70b20;
       text-decoration: none; }
