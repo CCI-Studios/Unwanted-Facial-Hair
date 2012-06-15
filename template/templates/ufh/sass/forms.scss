@@ -37,6 +37,10 @@ div.ccms_form_element {
 		clear: left;
 	}
 	
+	label {
+		width: auto;
+	}
+	
 	input[type="submit"] {
 		background: $red;
 		border: 1px solid #ccc;
