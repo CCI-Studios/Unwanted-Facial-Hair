@@ -652,13 +652,13 @@ div.chronoform {
   .moduletable_hmenu.primary.french li {
     padding: 0 15px; }
 
-.moduletable_hmenu.mini {
+.moduletable_hmenu.top {
   float: right; }
-  .ie8 .moduletable_hmenu.mini {
+  .ie8 .moduletable_hmenu.top {
     padding-top: 11px; }
-  .moduletable_hmenu.mini ul li {
+  .moduletable_hmenu.top ul li {
     padding: 0; }
-  .moduletable_hmenu.mini a {
+  .moduletable_hmenu.top a {
     padding: 0 10px;
     border-right: 1px solid #fff; }
 
