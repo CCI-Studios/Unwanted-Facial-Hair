@@ -52,9 +52,7 @@
 		
 		li {
 			padding: 0 20px;
-			.home-french & {
-				padding: 0 15px;
-			}
+			
 			&:first-child {
 				padding-left: 0;
 			}
@@ -65,12 +63,14 @@
 			}
 		}
 	}
+	
+	&.french li {
+		padding: 0 15px;
+	}
 }
 
 .moduletable_hmenu.mini {
-	font-size: 13px;
 	float: right;
-	padding-right: 10px;
 	.ie8 & {padding-top: 11px;}
 	
 	ul {
