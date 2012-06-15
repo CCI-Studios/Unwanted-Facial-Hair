@@ -34,30 +34,24 @@
     position: relative; }
     .moduletable_hmenu.primary ul li {
       padding: 0 20px; }
-      .home-french .moduletable_hmenu.primary ul li {
-        padding: 0 15px; }
       .moduletable_hmenu.primary ul li:first-child {
         padding-left: 0; }
       .moduletable_hmenu.primary ul li.last {
         position: absolute;
         right: 0;
-        bottom: 12px; }
+        bottom: 10px; }
+  .moduletable_hmenu.primary.french li {
+    padding: 0 15px; }
 
 .moduletable_hmenu.mini {
-  font-size: 13px;
-  float: right;
-  padding-right: 10px; }
+  float: right; }
   .ie8 .moduletable_hmenu.mini {
     padding-top: 11px; }
   .moduletable_hmenu.mini ul li {
     padding: 0; }
   .moduletable_hmenu.mini a {
     padding: 0 10px;
-    border-right: 1px solid #fff;
-    line-height: 15px;
-    color: #fff; }
-    .moduletable_hmenu.mini a:hover {
-      color: #d30c26; }
+    border-right: 1px solid #fff; }
 
 /* /hmenu */
 /* @group vmenu */

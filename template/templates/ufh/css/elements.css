@@ -33,3 +33,10 @@ a, a:active, a:visited {
 a:hover {
   color: #a70b20;
   text-decoration: underline; }
+
+#top a {
+  color: #fff;
+  line-height: 15px; }
+  #top a:hover {
+    color: #d30c26;
+    text-decoration: none; }

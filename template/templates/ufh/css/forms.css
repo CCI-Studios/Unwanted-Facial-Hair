@@ -44,6 +44,8 @@ div.ccms_form_element {
   div.ccms_form_element label + * {
     float: left;
     clear: left; }
+  div.ccms_form_element label {
+    width: auto; }
   div.ccms_form_element input[type="submit"] {
     background: #a70b20;
     border: 1px solid #ccc;

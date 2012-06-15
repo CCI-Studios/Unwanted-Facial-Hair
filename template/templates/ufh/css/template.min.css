@@ -400,6 +400,13 @@ a:hover {
   color: #a70b20;
   text-decoration: underline; }
 
+#top a {
+  color: #fff;
+  line-height: 15px; }
+  #top a:hover {
+    color: #d30c26;
+    text-decoration: none; }
+
 /* forms */
 /* Align checkboxes, radios, text inputs with their label by: Thierry Koblentz tjkdesign.com/ez-css/css/base.css  */
 input[type="radio"] {
@@ -446,6 +453,8 @@ div.ccms_form_element {
   div.ccms_form_element label + * {
     float: left;
     clear: left; }
+  div.ccms_form_element label {
+    width: auto; }
   div.ccms_form_element input[type="submit"] {
     background: #a70b20;
     border: 1px solid #ccc;
@@ -475,7 +484,8 @@ div.chronoform {
 #top {
   background: url("../images/bg_topRepeat.png") top center repeat-x;
   height: 41px;
-  line-height: 41px; }
+  line-height: 41px;
+  font-size: 13px; }
 
 #main {
   padding: 25px 0; }
@@ -498,19 +508,34 @@ div.chronoform {
   overflow: auto; }
 
 /* @group modules */
+/* top modules */
 .moduletable.fontResizer {
   float: right;
-  font-size: 13px;
-  padding-right: 10px; }
+  padding: 0 10px; }
   .moduletable.fontResizer a {
-    padding-left: 5px;
-    color: #fff; }
-    .moduletable.fontResizer a:hover {
-      color: #d30c26;
-      text-decoration: none; }
+    padding: 0 10px 0 5px;
+    border-right: 1px solid #fff; }
     .moduletable.fontResizer a:first-child {
-      padding-left: 0; }
+      padding: 0;
+      border: none; }
 
+.moduletable.print {
+  float: right; }
+  .moduletable.print a {
+    padding: 0 10px;
+    border-right: 1px solid #fff; }
+
+.moduletable.langSwitch {
+  float: right; }
+  .moduletable.langSwitch li {
+    margin: 0;
+    padding: 0; }
+    .moduletable.langSwitch li.lang-active {
+      display: none;
+      margin: 0;
+      padding: 0; }
+
+/* header modules */
 .moduletable.logo {
   float: left;
   margin: -13px 0 0 -9px; }
@@ -524,6 +549,7 @@ div.chronoform {
   font-weight: bold;
   color: #a70b20; }
 
+/* masthead modules */
 .moduletable.masthead {
   padding: 20px 0 0 0; }
   .moduletable.masthead img {
@@ -617,30 +643,24 @@ div.chronoform {
     position: relative; }
     .moduletable_hmenu.primary ul li {
       padding: 0 20px; }
-      .home-french .moduletable_hmenu.primary ul li {
-        padding: 0 15px; }
       .moduletable_hmenu.primary ul li:first-child {
         padding-left: 0; }
       .moduletable_hmenu.primary ul li.last {
         position: absolute;
         right: 0;
-        bottom: 12px; }
+        bottom: 10px; }
+  .moduletable_hmenu.primary.french li {
+    padding: 0 15px; }
 
 .moduletable_hmenu.mini {
-  font-size: 13px;
-  float: right;
-  padding-right: 10px; }
+  float: right; }
   .ie8 .moduletable_hmenu.mini {
     padding-top: 11px; }
   .moduletable_hmenu.mini ul li {
     padding: 0; }
   .moduletable_hmenu.mini a {
     padding: 0 10px;
-    border-right: 1px solid #fff;
-    line-height: 15px;
-    color: #fff; }
-    .moduletable_hmenu.mini a:hover {
-      color: #d30c26; }
+    border-right: 1px solid #fff; }
 
 /* /hmenu */
 /* @group vmenu */
