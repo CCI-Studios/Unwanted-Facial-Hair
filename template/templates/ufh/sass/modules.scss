@@ -20,6 +20,26 @@
 		}
 	}
 }
+
+.moduletable.print {
+	float: right;
+	
+	a {
+		padding: 0 10px;
+		border-right: 1px solid #fff;
+	}
+}
+
+.moduletable.langSwitch {
+	float: right;
+	
+	li {
+		margin: 0;
+		padding: 0;
+		&.lang-active {
+			display: none;
+			margin: 0;
+			padding: 0;
 		}
 	}
 }
