@@ -3,7 +3,7 @@
 <!--[if lt IE 7 ]> <html class="no-js ie6" lang="en"> <![endif]-->
 <!--[if IE 7 ]> <html class="no-js ie7" lang="en"> <![endif]-->
 <!--[if IE 8 ]> <html class="no-js ie8" lang="en"> <![endif]-->
-<!--[if (gte IE 9)|!(IE)]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--> <html class="no-js" lang="<?= $this->language ?>"> <!--<![endif]-->
 <?php
 // get current menu name
 $menu = JSite::getMenu();
@@ -37,7 +37,7 @@ $typekit = null;
 
 	<meta name="viewport" content="width=940px, initial-scale=1.0">
 	<link rel="icon" type="image/x-icon" href="/templates/<?= $this->template ?>/resources/favicon.ico">
-	<link rel="shortcut icon" type="image/x-icon" href="/templates/OAB/favicon.ico">	
+	<link rel="shortcut icon" type="image/x-icon" href="/templates/<?= $this->template ?>/favicon-<?= $this->language ?>.ico">	
 	<link rel="apple-touch-icon" href="/templates/<?= $this->template ?>/resources/apple-touch-icon.png">
 
 	<!-- load css -->
