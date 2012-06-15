@@ -4,6 +4,8 @@
 /* @group modules */
 .moduletable {}
 
+
+/* top modules */
 .moduletable.fontResizer {
 	float: right;
 	font-size: 13px;
@@ -22,6 +24,8 @@
 	}
 }
 
+
+/* header modules */
 .moduletable.logo {
 	float: left;
 	margin: -13px 0 0 -9px;
@@ -38,6 +42,7 @@
 	color: $red;
 }
 
+/* masthead modules */
 .moduletable.masthead {
 	padding: 20px 0 0 0;
 	
