@@ -8,11 +8,18 @@
 /* top modules */
 .moduletable.fontResizer {
 	float: right;
-	padding-right: 10px;
+	padding: 0 10px;
 	
 	a {	
+		padding: 0 10px 0 5px;
+		border-right: 1px solid #fff;
+		
 		&:first-child {
-			padding-left: 0;
+			padding: 0;
+			border: none;
+		}
+	}
+}
 		}
 	}
 }
