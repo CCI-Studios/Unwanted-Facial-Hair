@@ -58,7 +58,6 @@ div.ccms_form_element {
     width: 50px; }
     div.ccms_form_element input.chrono_captcha_input + * {
       float: left;
-      clear: right;
       padding-left: 10px; }
 
 div.chronoform {

@@ -45,8 +45,6 @@
 
 .moduletable_hmenu.top {
   float: right; }
-  .ie8 .moduletable_hmenu.top {
-    padding-top: 11px; }
   .moduletable_hmenu.top ul li {
     padding: 0; }
   .moduletable_hmenu.top a {

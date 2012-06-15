@@ -467,7 +467,6 @@ div.ccms_form_element {
     width: 50px; }
     div.ccms_form_element input.chrono_captcha_input + * {
       float: left;
-      clear: right;
       padding-left: 10px; }
 
 div.chronoform {
@@ -483,9 +482,10 @@ div.chronoform {
 
 #top {
   background: url("../images/bg_topRepeat.png") top center repeat-x;
-  height: 41px;
-  line-height: 41px;
-  font-size: 13px; }
+  font-size: 13px;
+  height: 41px; }
+  #top > div {
+    padding-top: 13px; }
 
 #main {
   padding: 25px 0; }
@@ -654,8 +654,6 @@ div.chronoform {
 
 .moduletable_hmenu.top {
   float: right; }
-  .ie8 .moduletable_hmenu.top {
-    padding-top: 11px; }
   .moduletable_hmenu.top ul li {
     padding: 0; }
   .moduletable_hmenu.top a {
