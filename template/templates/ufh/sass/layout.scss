@@ -15,9 +15,12 @@
 
 #top {
 	background: url('../images/bg_topRepeat.png') top center repeat-x;
-	height: 41px;
-	line-height: 41px;
 	font-size: 13px;
+	height: 41px;
+	
+	> div {
+		padding-top: 13px;
+	}
 }
 
 #main {
