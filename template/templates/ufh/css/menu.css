@@ -1,72 +1,71 @@
 /* menu */
 /* @group hmenu */
-.moduletable_hmenu > ul {
+.moduletable.hmenu > ul {
   margin: 0;
   padding: 0; }
-  .moduletable_hmenu > ul > li {
+  .moduletable.hmenu > ul > li {
     display: inline-block;
     *display: inline;
     *zoom: 1;
     position: relative;
     padding: 0 5px; }
-  .moduletable_hmenu > ul ul {
+  .moduletable.hmenu > ul ul {
     position: absolute;
     top: 100%;
     left: 0;
     width: 100%; }
-.moduletable_hmenu a,
-.moduletable_hmenu span {
+.moduletable.hmenu a,
+.moduletable.hmenu span {
   display: block;
   color: #4c4c4c; }
-  .moduletable_hmenu a:hover,
-  .moduletable_hmenu span:hover {
+  .moduletable.hmenu a:hover,
+  .moduletable.hmenu span:hover {
     color: #a70b20;
     text-decoration: none; }
 
-.moduletable_hmenu.primary {
+.moduletable.hmenu.primary {
   float: left;
   font-size: 16px;
   clear: both;
   width: 100%; }
-  .moduletable_hmenu.primary ul {
+  .moduletable.hmenu.primary ul {
     border-bottom: 1px solid #e5e5e5;
     padding: 37px 0 12px 0;
     position: relative; }
-    .moduletable_hmenu.primary ul li {
+    .moduletable.hmenu.primary ul li {
       padding: 0 20px; }
-      .moduletable_hmenu.primary ul li:first-child {
+      .moduletable.hmenu.primary ul li:first-child {
         padding-left: 0; }
-      .moduletable_hmenu.primary ul li.last {
+      .moduletable.hmenu.primary ul li.last {
         position: absolute;
         right: 0;
+        padding: 0;
         bottom: 10px; }
-  .moduletable_hmenu.primary.french li {
+  .moduletable.hmenu.primary.french li {
     padding: 0 15px; }
 
-.moduletable_hmenu.top {
-  float: right; }
-  .moduletable_hmenu.top ul li {
-    padding: 0; }
-  .moduletable_hmenu.top a {
-    padding: 0 10px;
-    border-right: 1px solid #fff; }
+.moduletable.hmenu.top li {
+  padding: 0; }
+.moduletable.hmenu.top a {
+  padding: 0 10px;
+  border-right: 1px solid #fff; }
 
 /* /hmenu */
 /* @group vmenu */
-.moduletable_vmenu > ul {
+.moduletable.vmenu > ul {
   margin: 0;
   padding: 0;
   list-style: none; }
 
-.moduletable_vmenu.footer {
+.moduletable.vmenu.footer {
   width: 200px;
   padding: 0 20px 0 0;
   font-size: 13px;
   font-weight: lighter;
   line-height: 18px; }
-  .moduletable_vmenu.footer a {
+  .moduletable.vmenu.footer a {
     color: #fff; }
-    .moduletable_vmenu.footer a:hover {
+    .moduletable.vmenu.footer a:hover {
       color: #d30c26;
       text-decoration: none; }
 

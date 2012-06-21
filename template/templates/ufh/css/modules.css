@@ -1,7 +1,6 @@
 /* @group modules */
 /* top modules */
 .moduletable.fontResizer {
-  float: right;
   padding: 0 10px; }
   .moduletable.fontResizer a {
     padding: 0 10px 0 5px;
@@ -10,21 +9,17 @@
       padding: 0;
       border: none; }
 
-.moduletable.print {
-  float: right; }
-  .moduletable.print a {
-    padding: 0 10px;
-    border-right: 1px solid #fff; }
+.moduletable.print a {
+  padding: 0 10px;
+  border-right: 1px solid #fff; }
 
-.moduletable.langSwitch {
-  float: right; }
-  .moduletable.langSwitch li {
+.moduletable.langSwitch li {
+  margin: 0;
+  padding: 0; }
+  .moduletable.langSwitch li.lang-active {
+    display: none;
     margin: 0;
     padding: 0; }
-    .moduletable.langSwitch li.lang-active {
-      display: none;
-      margin: 0;
-      padding: 0; }
 
 /* header modules */
 .moduletable.logo {
@@ -83,7 +78,8 @@
 .moduletable.resources {
   font-size: 14px;
   width: 400px;
-  padding: 0 0 0 20px; }
+  padding: 0 0 0 20px;
+  line-height: 1em; }
   .moduletable.resources a {
     color: #d30c26; }
 
@@ -95,5 +91,5 @@
   .moduletable.copyright a {
     color: #fff; }
     .moduletable.copyright a:hover {
-      color: #a70b20;
+      color: #d30c26;
       text-decoration: none; }
