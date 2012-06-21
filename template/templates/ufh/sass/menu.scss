@@ -4,7 +4,7 @@
 /* menu */
 
 /* @group hmenu */
-.moduletable_hmenu {
+.moduletable.hmenu {
 	
 	> ul {
 		margin: 0;
@@ -39,7 +39,7 @@
 	}
 } 
 
-.moduletable_hmenu.primary {
+.moduletable.hmenu.primary {
 	float: left;
 	font-size: 16px;
 	clear: both;
@@ -70,10 +70,10 @@
 	}
 }
 
+.moduletable.hmenu.top {
 		
-		li {
-			padding: 0;
-		}
+	li {
+		padding: 0;
 	}
 	
 	a {
@@ -86,7 +86,7 @@
 
 
 /* @group vmenu */
-.moduletable_vmenu {
+.moduletable.vmenu {
 	
 	> ul {
 		margin: 0;
@@ -95,7 +95,7 @@
 	}
 }
 
-.moduletable_vmenu.footer {
+.moduletable.vmenu.footer {
 	width: 200px;
 	padding: 0 20px 0 0;
 	font-size: 13px;
