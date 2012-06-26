@@ -26,7 +26,7 @@
 		<jdoc:include type="message" />
 		
 		<p class="text-center">
-			<img src="/images/default/logo-large.png" />
+			<img src="/images/logo.png" />
 		</p>
 		<p>
 			<?php echo $app->getCfg('offline_message'); ?>
