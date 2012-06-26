@@ -115,7 +115,7 @@ $typekit = null;
 					g.src=("https:"==location.protocol?"//ssl":"//www")+".google-analytics.com/ga.js";
 					s.parentNode.insertBefore(g,s)}(document,"script"));
 		  	</script>
-			<script src="/templates/<?= $this->template ?>/js/scripts.min.js"></script>
+			<script src="/templates/<?= $this->template ?>/js/scripts.min-ck.js"></script>
 		<?php endif; ?>
 	<?php endif; ?>
 </body>
