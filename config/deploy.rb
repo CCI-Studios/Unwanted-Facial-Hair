@@ -10,7 +10,7 @@ set :repository,  "git@github.com:CCI-Studios/Unwanted-Facial-Hair.git"
 set :scm, :git
 
 # ssh settings
-set :user, "staging"
+set :user, "ufh"
 set :use_sudo, false
 
 # Joomla
@@ -140,7 +140,7 @@ namespace :deploy do
         chmod +x symlinker
       CMD
       
-      run "mv #{public}/configuration.php #{deploy_to}/shared/config.php"
+      # run "mv #{public}/configuration.php #{deploy_to}/shared/config.php"
       joomla::symlink
       joomla::install_default
     end
