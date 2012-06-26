@@ -1,5 +1,5 @@
 # repository info
-set :branch, "development"
+set :branch, "master"
 
 # This may be the same as your `Web` server
 role :app, "ufhcommunity.ca"
