@@ -25,7 +25,7 @@ if ($_SERVER['SERVER_PORT'] === 8888 ||
 }
 
 JHTML::_('behavior.mootools');
-$analytics = "UA-XXXXX-X"; // FIXME Update to client ID
+$analytics = "UA-34558651-1";
 $typekit = null;
 ?>
 
@@ -37,7 +37,7 @@ $typekit = null;
 
 	<meta name="viewport" content="width=940px, initial-scale=1.0">
 	<link rel="icon" type="image/x-icon" href="/templates/<?= $this->template ?>/resources/favicon.ico">
-	<link rel="shortcut icon" type="image/x-icon" href="/templates/<?= $this->template ?>/favicon-<?= $this->language ?>.ico">	
+	<link rel="shortcut icon" type="image/x-icon" href="/templates/<?= $this->template ?>/favicon-<?= $this->language ?>.ico">
 	<link rel="apple-touch-icon" href="/templates/<?= $this->template ?>/resources/apple-touch-icon.png">
 
 	<!-- load css -->
@@ -58,18 +58,18 @@ $typekit = null;
 <body class="<?= $menu ?>">
 
 	<div id="wrapper">
-		
+
 		<div id="top"><div class="container">
 			<jdoc:include type="modules" name="top" style="xhtml" />
 			<div class="clear"></div>
 		</div></div>
-		
+
 			<div class="bg-image"><div class="container">
 			<div id="header">
 				<jdoc:include type="modules" name ="header" style="xhtml" />
 				<div class="clear"></div>
 			</div>
-		
+
 			<div id="masthead">
 				<jdoc:include type="modules" name="masthead" style="xhtml" />
 			</div>
@@ -86,12 +86,12 @@ $typekit = null;
 				<div class="clear"></div>
 			</div>
 		</div></div>
-			
+
 		<div id="footer"><div class="container">
 			<jdoc:include type="modules" name="footer" style="xhtml" />
 			<div class="clear"></div>
 		</div></div>
-		
+
 	</div>
 
 	<div class="hidden">
